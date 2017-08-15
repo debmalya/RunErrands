@@ -6,5 +6,6 @@ Sometimes some adhoc tasks come. To prepare scripts to attand such call.
 * Task 3: Copy files which contains data for peak hours (17:00 - 20:00), here file name is datetime (e.g. 201708091858)
 * Task 4: Extract all gz files in the passed directory.
 * Task 5: Count total number of files in a specific directory. Directory name will be passed as an argument.
+* Task 6: For each file, there should be a control file. Control file has the same name with the file, only they have an extension *.ctl and they do not have any content.
 
 GNU bash, version 4.1.2(1)-release (x86_64-redhat-linux-gnu)
