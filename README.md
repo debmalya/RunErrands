@@ -12,5 +12,6 @@ Sometimes some adhoc tasks come. To prepare scripts to attand such call.
 * Task 9: In directory there are files with extension DAT, We have to create file with same name, but extenstion will be .CTL (e.g. there is a file a.DAT, for a.DAT We have to create a.CTL
 * Task 10: Write a command to get the latest file name from the specified directory.
 * Task 11: From a directory we have to keep the most latest file, remaining files will be compressed and stored into a specified archive folder. After archiving, all those files will be deleted [TO DO]
+* Task 12: Check whether mentioned file exists or not.
 
 GNU bash, version 4.1.2(1)-release (x86_64-redhat-linux-gnu)
