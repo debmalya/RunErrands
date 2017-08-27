@@ -11,7 +11,7 @@ Sometimes some adhoc tasks come. To prepare scripts to attend such calls.
 * Task 8: Split a file into multiple files. Each file cannot contain more than specified number of records (e.g. 1000000) [TO DO]
 * Task 9: In directory there are files with extension DAT, We have to create file with same name, but extenstion will be .CTL (e.g. there is a file a.DAT, for a.DAT We have to create a.CTL
 * Task 10: Write a command to get the latest file name from the specified directory.
-* Task 11: In a directory, we store all the files which have some errors. File naming convention is BAD_RECORDS_FOOTBALLL_<TIMESTAMP>, BAD_RECORDS_CRICKET_<TIMESTAMP>. From that we have to keep the latest file of each cateogory (e.g. BAD_RECORDS_FOOTBALL, BAD_RECORDS_CRICKET) and remainging files we have to make a tar and delete them.  [TO DO]
+* Task 11: In a directory, we store all the files which have some errors. File naming convention is BAD_RECORDS_FOOTBALLL_<TIMESTAMP>, BAD_RECORDS_CRICKET_<TIMESTAMP>. From that we have to keep the latest file of each cateogory (e.g. BAD_RECORDS_FOOTBALL, BAD_RECORDS_CRICKET) and remainging files we have to make a tar and delete them.  
 * Task 12: Check whether mentioned file exists or not.
 * Task 13: Find the files which are modified in last specified miniutes (duration in minute will be passed as command line parameter).
 
