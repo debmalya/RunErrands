@@ -29,7 +29,7 @@ then
     tar -cvzf ${location}.tar.gz ${location} >> /dev/null
 fi
 
-# Remove files which are older than 10 days
+
 # Remove files which are older than 10 days
 for file in `ls -1v ${location}`
 do
