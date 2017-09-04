@@ -19,7 +19,7 @@ do
   then
       # move the file to temporary location
       mv $file $location
-      $count=$count+1
+      count=$(($count+1))
   fi
   previous_pattern=$current_pattern
 done
