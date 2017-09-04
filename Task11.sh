@@ -4,6 +4,7 @@ previous_pattern=""
 location=$2/`date +%Y%m%d`
 echo ${location}
 mkdir -p ${location}
+count=0
 
 # list all csv files in reverse chronological order with one column output
 # latest file will come first. That file we have to preserve.
@@ -18,9 +19,13 @@ do
   then
       # move the file to temporary location
       mv $file $location
+      $count=$count+1
   fi
   previous_pattern=$current_pattern
 done
 
-tar -cvzf ${location}.tar.gz ${location} >> /dev/null
+if [ $count -gt 0 ]
+then
+    tar -cvzf ${location}.tar.gz ${location} >> /dev/null
+fi
 rm -rf ${location}
