@@ -1,4 +1,6 @@
 #!/bin/sh
+# $2 is the location where files will be archived.
+# $1 is the location of bad files.
 
 previous_pattern=""
 location=$2/`date +%Y%m%d`
@@ -30,8 +32,8 @@ then
 fi
 
 
-# Remove files which are older than 10 days
-for file in `ls -1v ${location}`
+# Remove files which are older than 9 days
+for file in `ls -1v $2`
 do
     # remove .tar.gz from the file name get YYYYMMDD format date
     file_prefix=`echo $file | sed -e "s/.tar.gz//g"`
