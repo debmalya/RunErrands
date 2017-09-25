@@ -8,7 +8,7 @@ Sometimes some adhoc tasks come. To prepare scripts to attend such calls.
 * Task 5: Count total number of files in a specific directory. Directory name will be passed as an argument.
 * Task 6: For each file, there should be a control file. Control file has the same name with the file, only they have an extension *.ctl and they do not have any content.
 * Task 7: Each directory contains files processed for three hours. We have to check total how many files are there. Then there will an argument time ( >= 5 && <= 60 ) to the method. We need copy that much files to another directory (passed as second argument to this method) [TO DO].
-* Task 8: Split a file into multiple files. Each file cannot contain more than specified number of records (e.g. 1000000) [TO DO]
+* Task 8: Split a file into multiple files. Each file cannot contain more than specified number of records (e.g. 1000000) 
 * Task 9: In directory there are files with extension DAT, We have to create file with same name, but extenstion will be .CTL (e.g. there is a file a.DAT, for a.DAT We have to create a.CTL
 * Task 10: Write a command to get the latest file name from the specified directory.
 * Task 11: In a directory, we store all the files which have some errors. File naming convention is BAD_RECORDS_FOOTBALLL_<TIMESTAMP>, BAD_RECORDS_CRICKET_<TIMESTAMP>. From that we have to keep the latest file of each cateogory (e.g. BAD_RECORDS_FOOTBALL, BAD_RECORDS_CRICKET) and remainging files we have to make a tar and delete them.  
