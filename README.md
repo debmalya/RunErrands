@@ -15,6 +15,6 @@ Sometimes some adhoc tasks come. To prepare scripts to attend such calls.
 * Task 11a: The tar files created in task 11, should be kept for 10 days. If the file is more than 10 days we have to delete those files. File naming format is YYYYMMDD.tar.gz (e.g. 20170827.tar.gz,20170901.tar.gz,20170902.tar.gz,20170903.tar.gz,20170904.tar.gz)
 * Task 12: Check whether mentioned file exists or not.
 * Task 13: Find the files which are modified in last specified miniutes (duration in minute will be passed as command line parameter).
-* Task 14: Merge all the files in the current directory. Copied from [Expert Exchange](https://www.experts-exchange.com/questions/26951355/Merge-files-with-shell-script.html)
+* Task 14: Merge all the files in the current directory. Copied from 
 
 GNU bash, version 4.1.2(1)-release (x86_64-redhat-linux-gnu)
