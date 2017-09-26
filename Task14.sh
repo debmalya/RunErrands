@@ -1,13 +1,13 @@
 #!/bin/bash
-start=0
-
+first_file=0
+# Parameter 1: name of the final file (after merging)
 for file in *
 do
-  if [ $start -eq 0 ]
+  if [ $first_file -eq 0 ]
   then
-     cat $file >merged_file.txt
-     start=1
+     cat $file >$1
+     first_file=1
   else
-     sed 1d $file >>merge_file.txt
+     sed 1d $file >>$1
   fi
 done
