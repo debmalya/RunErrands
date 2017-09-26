@@ -2,6 +2,8 @@
 # We have input files with following format
 # <MSISDN>|<NAME>
 # e.g. 1|ONE
+# Parameter 1: Field containing MSISDN
+# Parameter 2: Number of lines in each file
 # from this input file we have to split files based on passed number of lines in each file, parameter 1
 # First, store MSISDN in temporary file
 awk -F"|" '{print $1}' > ONLY_MSISDN.txt
