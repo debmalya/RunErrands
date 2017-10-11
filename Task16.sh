@@ -41,7 +41,7 @@ do
                                  field++
 
                           }
-                      }' result.txt
+                      }' result.txt >> output.txt
           fi
        fi
    done
