@@ -8,6 +8,7 @@ echo ${location}
 mkdir -p ${location}
 count=0
 separator="-"
+today=`date +%s`
 
 # list all csv files in reverse chronological order with one column output
 # latest file will come first. That file we have to preserve.
