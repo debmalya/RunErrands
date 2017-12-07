@@ -1,6 +1,6 @@
 #!/bin/sh
 ############################################################################################
-#  Create script to create a new file every 30 minutes and FTP file to mRewards Server     #
+#  Create script to create a new file every 30 minutes and FTP file to other Server        #
 ############################################################################################
 location=$1
 touch $location/Event_Sink_FS1-1507618900-4.csv
