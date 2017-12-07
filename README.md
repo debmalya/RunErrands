@@ -17,5 +17,6 @@ Sometimes some adhoc tasks come. To prepare scripts to attend such calls.
 * Task 13: Find the files which are modified in last specified miniutes (duration in minute will be passed as command line parameter).
 * Task 14: Merge all the files in the current directory. 
 * Task 15: List all the files which are changed in last half an hour.
+* Task 16: I have file with header. This file has around 7 million records, want to split this file such a way that each file will have maximum 100,000 records. While splitting each file must have the header.  
 
 Scrips are executed in GNU bash, version 4.1.2(1)-release (x86_64-redhat-linux-gnu)
