@@ -5,10 +5,15 @@ for i in "${web_services[@]}"
 do
   # The parameter -I might be added to improve response load performance. 
   # This parameter just request for status/headers of response, without download response body. (%{http_code} returns on first line of HTTP payload).
-  if [ $(curl -s -o /dev/null -i -I -w "%{http_code}\n" $i) ==  "200" ] ;
+  epoch_time=`date +%s`
+  status=$(curl -s -o /dev/null -i -I -w "%{http_code}\n" $i)
+  echo $status
+  if [ $status ==  "200" ] ;
   then
       echo "$i - OK"
+      echo "WEBSERVICE_MONITOR|$i|$epoch_time|$status|SUCCESS|" >> webservice_access.log
   else
+      echo "WEBSERVICE_MONITOR|$i|$epoch_time|$status|FAILURE|" >> webservice_access.log
       echo "$i - KO"
   fi
 done 
