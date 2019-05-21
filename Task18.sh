@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 web_services=("http://localhost:8080/api/football/comp/PL/38" "http://localhost:8080/app/job/search?wsdl")
 
 # This works in mac os
@@ -7,7 +7,16 @@ yesterday=`date -v-1d +%F`
 # For Linux
 # yesterday=`date -d "yesterday 13:00" '+%Y-%m-%d'`
 
-echo "$yesterday"
+#echo "$yesterday"
+hour=`date +"%H"`
+minute=`date +"%M"`
+echo "$hour"
+echo "$minute"
+if [ $hour == "07" -a $minute == "03" ];
+then
+   echo "Now is the time to rotate file"
+   mv webserice_access.log webservice_access_$yesterday.log
+fi
 
 for i in "${web_services[@]}"
 do
