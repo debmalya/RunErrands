@@ -19,5 +19,7 @@ Sometimes some adhoc tasks come. To prepare scripts to attend such calls.
 * Task 15: List all the files which are changed in last half an hour.
 * Task 17: I have file with header. This file has around 7 million records, want to split this file such a way that each file will have maximum 100,000 records. While splitting each file must have the header.  [TO DO]
 * Task 18: We have web services running. This script should monitor web services. If the web service got http response code 200 then print 'OK' otherwise 'KO'.
+* Task 19: Count lines code in a subdirectories.  
+  
 
 Scrips are executed in GNU bash, version 4.1.2(1)-release (x86_64-redhat-linux-gnu)
